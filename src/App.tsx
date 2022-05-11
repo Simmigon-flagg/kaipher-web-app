@@ -9,14 +9,6 @@ Amplify.configure(awsExports);
 
 const App = () => {
 
-  // useEffect(() => {
-  //   fetch('https://a17lfk040i.execute-api.us-east-1.amazonaws.com/staging/dashboard')
-  //   // fetch('http://localhost:3001/dashboard')
-  //     .then(response => response.json())
-  //     .then(data => console.log(data));
-
-  // }, []);
-
   return (
     <Authenticator>
       {({ signOut, user }) => (
